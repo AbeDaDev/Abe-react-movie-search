@@ -1,19 +1,18 @@
 {
-  "name": "Scrim-s01u9v5",
-  "description": "https://scrimba.com/build-a-react-project-movie-search-app-c0u/~03/s06c20p69e/head",
+  "name": "movie-search-app",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "watch": "webpack -w",
-    "build": "webpack"
-  },
-  "dependencies": {
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "webpack": "^2.0"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "babel-core": "^6.0",
-    "babel-loader": "^7.0",
-    "babel-preset-env": "*",
-    "babel-preset-react": "*"
+    "@vitejs/plugin-react": "^4.6.0",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }

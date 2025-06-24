@@ -1,12 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import "./style.css";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "../app.jsx";
 
-class Main extends React.Component {
-  render() {
-    return (
-      <h1>Hello world!</h1>
-    );
-  }
-}
-
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);

@@ -12,5 +12,7 @@ My goal was to keep the design simple and responsive, while focusing on core fun
 	•	HTML
 	•	CSS
 	•	JavaScript
+	•	Vite
 	•	React
 	•	REST API
+	•	Netlify (for deployment)
